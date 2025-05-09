@@ -1,7 +1,6 @@
 import { getRandomValue } from '@/libs/getRandomValue';
 import { ClientComp } from './ClientComp';
 
-export const dynamic = 'force-dynamic';
 // Server-side component
 export default async function ServerComp() {
   const randomValue = await getRandomValue();
